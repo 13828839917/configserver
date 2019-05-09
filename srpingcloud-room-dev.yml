@@ -11,8 +11,13 @@ spring:
   port: 2002
 eureka:
   client:
+    register-with-eureka: false
+    fetch-registry: false
     serviceUrl:
       defaultZone: http://127.0.0.1:1001/eureka/
+ security:
+  basic:
+    enabled: false
 mybatis:
   mapperLocations: classpath*:mybatis/mapper-*.xml
   typeAliasesPackage: com.jk.model
