@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: srpingcloud-room
-  port: 2002
+  port: 2003
 eureka:
   client:
     serviceUrl:
