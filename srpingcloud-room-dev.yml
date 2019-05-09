@@ -7,8 +7,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:1001/eureka/
-mybatis:
-  mapperLocations: classpath*:mybatis/mapper-*.xml
-  typeAliasesPackage: com.jk.model
+
 
 
