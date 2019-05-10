@@ -7,7 +7,7 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
   application:
-    name: srpingcloudroom
+    name: srpingclou-droom
   port: 2003
 eureka:
   client:
