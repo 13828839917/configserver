@@ -9,6 +9,17 @@ spring:
   application:
     name: srpingclou-droom
   port: 2003
+  rabbitmq:
+    host : 192.168.109.130
+    port : 5672
+    username : ws
+    password : 123
+
+ # spring.rabbitmq.host=192.168.109.130
+ # spring.rabbitmq.port=5672
+ # spring.rabbitmq.username=ws
+ # spring.rabbitmq.password=123
+
 eureka:
   client:
     serviceUrl:
