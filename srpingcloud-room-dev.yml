@@ -19,6 +19,12 @@ spring:
  # spring.rabbitmq.port=5672
  # spring.rabbitmq.username=ws
  # spring.rabbitmq.password=123
+ 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
 
 eureka:
   client:
